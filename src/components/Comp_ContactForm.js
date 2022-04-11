@@ -12,7 +12,7 @@ const ContactForm = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("http://pixelbear.studio/contact", {
+    let response = await fetch("https://pixelbear.studio/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
