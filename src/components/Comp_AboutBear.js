@@ -62,12 +62,21 @@ function FullWidth(stuff) {
           
           <p>
             <span className="side-text-left">
-                Born from a love of design and aesthetics. I love making things look good, provacative, inspiring. I am a UX focused product developer. Full-stack Developer, Artist, Designer, Project Manager, Business Developer and Marketing Professional. I have lived and breathed the start up life, worked the corporate ladder. It’s given me the unique perspective that simplicity is a art form that can and should be implmented in all we do. I also have a deep passion for the visual arts, photography, self expression and personal enrichiment. Honestly I just wanna have a good time though. 
+            <h4>Pixelbear?</h4>
+                Pixelbear.Studio was born from a love of design and aesthetics. I love making things look good, provacative, inspiring. 
+                I am a UX focused product developer. I also just really like bears!
+                <h4>Product Developer??</h4>
+                Full-stack Developer, Artist, Designer, Project Manager, Business Developer and Marketing Professional. 
+                I have lived and breathed the start up life, worked the corporate ladder. 
+                It’s given me the unique perspective, that simplicity, is a art form that can and should be implmented in all we do. But also, that a GOOD product, is a lovable product. 
+                Data is important in decision making, but empathy is just as important if not more so.
+                <h4>Me?</h4>
+                I also have a deep passion for the visual arts, photography, self expression and personal enrichiment. Honestly I just wanna have a good time though. 
+                Learning what I can and cannot control has been the biggest life lesson I've picked up along the way. It helps guide me in my everyday life as a product person. An invaluable lesson. 
             </span>
           </p>
-          <br/>
             <div className="button" style={{backgroundImage: `url(${button})`}}>
-           <a href="/works">Resume</a>
+           <a href="https://www.linkedin.com/in/aolson4489/" target="_blank">Resume</a>
             </div>
          
 

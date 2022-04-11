@@ -91,10 +91,13 @@ renderElement() {
            {portfolio.map(works => (
               
               <div className="portfolioItem fade-in" key={works.id} onClick={() => this.project(works)}>
+                
+
+
                 <div className="imgContain" >
                   <img src={works.featured_image_src} />
                 </div>
-                <h5>{parse(works.title.rendered)}</h5>
+               
                 
                 
               </div>
@@ -152,7 +155,7 @@ renderElement() {
 }
       
 
-
+//<h4 className="itemTitle">{parse(works.title.rendered)}</h4> 
 
 
 

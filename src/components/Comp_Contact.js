@@ -21,9 +21,7 @@ function FullWidth(stuff) {
     
       <div className="contact-form-container">
 
-      <p>
-      Drop me a line. 
-Tell me about your project. <br /> Or just say hi.
+      <p>Drop me a line. <br />Tell me about your project. <br /> Or just say hi.
       </p>
         <div className="banner" style={{backgroundImage: `url(${banner})`}}></div>
             <span className="side-text-left">
