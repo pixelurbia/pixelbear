@@ -645,6 +645,13 @@ font-weight:800;
     max-width: 1800px;
     margin:0 auto;
 }
+
+.portfolio .alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+}
+
 .portfolio-area {
     margin: 30px 0px 0px -7px;
 }
@@ -681,13 +688,14 @@ font-weight:800;
     height:100%;
 }
 .portfolio-full{
-    max-width:800px;
+    max-width:1024px;
     color:#eee;
     margin: 0 auto;
+
     padding:30px 0px 30px 0px;
 }
 .portfolio-full img {
-    width:100%;
+    max-width: 100%;
 }
 
 
