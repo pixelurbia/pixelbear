@@ -30,7 +30,7 @@ class Albums extends React.Component{
           <section className="fullWidth img-gallery">
           <div className="big-div" style={{backgroundImage: `url(${divider})`}}></div>
             <div className="headings">
-              <h4>Recent Photos</h4>
+              <h2>Recent Photos</h2>
             </div>  
             <div className="recent-photos">
               {

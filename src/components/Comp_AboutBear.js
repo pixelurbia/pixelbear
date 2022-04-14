@@ -55,9 +55,8 @@ function FullWidth(stuff) {
 
   return (
     <section className={stuff.className} key="hero" style={{backgroundImage: `url(${stuff.img})`}}>
+      <div className="section-contain">
       <div className="section-text">
-
-        
         <div className="banner" style={{backgroundImage: `url(${banner})`}}></div>
           
           <p>
@@ -87,7 +86,7 @@ function FullWidth(stuff) {
         <div className="main animate"   style={{backgroundImage: `url(${bigTriangle})`}}></div>
         <div className="small animate-two"  style={{backgroundImage: `url(${smallTriangle})`}}></div>
         <div className="small-two animate-three"  style={{backgroundImage: `url(${smallTriangle})`}}></div>
-
+      </div>
       </div>
 
 

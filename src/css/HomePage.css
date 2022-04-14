@@ -9,8 +9,6 @@
     position: relative;
     font-weight:100;
     padding:40px;
-
-    
 }
 
 .fullWidthNoFrame {
@@ -22,7 +20,6 @@
     padding:40px 0px 0px 0px;
     z-index:1; 
 }
-
 
 .logo {
     width: 90px;
@@ -201,7 +198,6 @@ h5 {
     text-transform: uppercase;
     font-size: 45px;
     font-weight: 100;
-
 }
 
 .side-text-right {
@@ -249,9 +245,18 @@ h5 {
 }
 
 /* home-page-imgs */
+.img-gallery .button {
+    float: right;
+    margin: 0px 70px 0px 0px;
+}
+.img-gallery h2 {
+    margin: 0px 0px -40px 0px;
+}
 .img-gallery {
     position: relative;
     height: 110vh;
+    max-width: 1900px;
+    margin: 0 auto;
 
 }
 .img-gallery .recent-photos{
@@ -259,15 +264,25 @@ h5 {
     overflow: hidden;
     width:100%;
     max-width: 1800px;
-
+    margin: 0 auto;
 }
-.img-gallery .img-contain {
+
+.img-gallery .recent-photos .img-contain {
     width: 15%;
     height:500px;
     float:left;
     margin:10px;
     overflow: hidden;
-    border-radius: 30px;
+    border-radius: 20px;
+}
+.img-gallery .img-contain {
+
+    width: 32%;
+    height:500px;
+    float:left;
+    margin:10px;
+    overflow: hidden;
+
 }
 .img-gallery .img-contain:nth-child(6){
     margin:10px 0px 10px 10px;
@@ -281,12 +296,13 @@ h5 {
 .img-gallery .img-contain img:hover {
     transition: all .2s ease-in-out;
     -webkit-transition: all .1s ease-in-out;
-  opacity: 0.6;
-   transform: scale(1.31);
+    opacity: 0.6;
+    transform: scale(1.31);
 }
 
 .img-gallery img {
-   height:100%;
+   /*height:100%;*/
+       height: 91vh;
 }
 
 .fade-in {
@@ -318,6 +334,10 @@ h5 {
 
 .about {
     margin-top: 100px;
+}
+.about .section-contain {
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
 .about .banner {
@@ -474,6 +494,12 @@ font-weight:800;
         height: 250px;
         margin:10px;
         float:left;
+        } 
+    .img-gallery .recent-photos .img-contain {
+        width:45%;
+        height: 250px;
+        margin:10px;
+        float:left;
         }
     .img-gallery .img-contain img {
         height:200%;
@@ -516,7 +542,7 @@ font-weight:800;
 }
 
 
-  .bottom-left .section-text {
+   .bottom-left .section-text {
     font-size: 35px;}
  
     .img-gallery .img-contain {
@@ -532,6 +558,12 @@ font-weight:800;
     }
     .img-gallery .img-contain {
 
+        height: 140px;
+        margin:10px;
+        float:left;
+    } 
+    .img-gallery .recent-photos .img-contain {
+        width: 100%;
         height: 140px;
         margin:10px;
         float:left;
@@ -610,6 +642,8 @@ font-weight:800;
 
 .portfolio {
     top: 130px;
+    max-width: 1800px;
+    margin:0 auto;
 }
 .portfolio-area {
     margin: 30px 0px 0px -7px;
@@ -629,6 +663,7 @@ font-weight:800;
     float:left;
     overflow: hidden;
 }
+
 
 .portfolioItem .imgContain img {
     transition: all .2s ease-in-out;
