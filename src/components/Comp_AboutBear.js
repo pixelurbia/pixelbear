@@ -67,7 +67,7 @@ function FullWidth(stuff) {
             <br /><br />
             Product Focused Designer, Full-stack Developer, Artist, Project Manager, Business Developer and Marketing Professional. I have lived and breathed the start up life and worked the corporate ladder, these experiences have given me the unique perspective, that simplicity, is a art form that can and should be implmented in all we do. I love to build loveable products.
             <br /><br />
-            I also have a deep passion for the visual arts, photography, self expression and personal enrichiment. Honestly I just wanna have a good time though. Learning what I can and cannot control has been the biggest life lesson I've picked up along the way. It helps guide me in my everyday life as a product person. An invaluable lesson.
+            I also have a deep passion for the visual arts, photography, self expression and personal enrichiment. Honestly I just wanna have a good time though. When I am not creating, I like to unwind with my favorite video game, watch Star Trek reruns or get lost out in the mountains with my overlanding group of friends. 
             </span>
           </p>
             <div className="button" style={{backgroundImage: `url(${button})`}}>
