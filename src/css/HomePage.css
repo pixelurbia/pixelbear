@@ -71,7 +71,7 @@
     -webkit-transition: all .2s ease-in-out;
     opacity: 1;
     transform: scale(1);
-    z-index: 3;
+    /*z-index: 3;*/
 }
 .button a {
     letter-spacing: 5px;
@@ -147,7 +147,7 @@ h5 {
 
 .headings  {
    position:inherit;
-    z-index: 9;
+
 }
 .headings h4 {
     margin:0px;
@@ -218,7 +218,7 @@ h5 {
     top: 0;
     left: 0;
     background: #000000db;
-    z-index: 9;
+    z-index: 7;
 }
 .fullsized {
     vertical-align: middle;
@@ -251,6 +251,8 @@ h5 {
 }
 .img-gallery h2 {
     margin: 0px 0px -40px 0px;
+    z-index: 2;
+    position: relative;
 }
 .img-gallery {
     position: relative;
@@ -259,6 +261,7 @@ h5 {
     margin: 0 auto;
 
 }
+
 .img-gallery .recent-photos{
     display: block;
     overflow: hidden;
@@ -310,7 +313,7 @@ h5 {
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
 }
 
 @keyframes fadeInOpacity {
@@ -323,8 +326,7 @@ h5 {
 }
 
 
-
-/* Albumb Page*/
+/* Album Page*/
 
 .fullAlbum {
     top: 130px;
@@ -718,3 +720,50 @@ font-weight:800;
 }
 
 
+/* Resume */
+
+.resume {
+    top:130px;
+    min-height: 1px;
+    padding: 10px 0px 10px 0px;
+
+}
+.resume p {
+    color: #ffebd4;
+}
+
+.entry {
+    max-width: 1900px;
+    margin: 0px auto;
+    display: block;
+    min-height: 100px;
+    overflow: hidden;
+}
+.entry-left {
+    width:35%;
+    min-height: 1px;
+    display: block;
+    float:left;
+    padding:0px 20px 0px 20px;
+    text-align: right;
+}
+.entry-right {
+    width:65%;
+    min-height: 1px;
+    display: block;
+    float:left;
+    padding:0px 20px 0px 50px;
+    border-style: solid;
+    border-color:#fec077;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.entry ul li {
+    font-size:12px;
+}
+
+.entry span {
+    font-size:12px;
+}

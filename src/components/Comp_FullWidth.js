@@ -22,7 +22,7 @@ function FullWidth(stuff) {
           <div className="herolines" style={{backgroundImage: `url(${herolines})`}}></div>
 
             <span className="top-text">
-              Design<br/>Development<br/>Art
+              UX Design<br/>Development<br/>Art
             </span>
           <br/>
             <div className="button" style={{backgroundImage: `url(${button})`}}>

@@ -19,6 +19,7 @@ header {
     font-weight: 200;
     letter-spacing: 2px;
     padding: 22px 0px 0px 0px;
+    z-index: 9;
 }
 .navigation li {
   display:block;
