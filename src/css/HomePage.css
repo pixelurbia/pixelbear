@@ -256,7 +256,7 @@ h5 {
 }
 .img-gallery {
     position: relative;
-    height: 110vh;
+    height: 100vh;
     min-height: 965px;
     max-width: 1900px;
     margin: 0 auto;
