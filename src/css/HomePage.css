@@ -35,10 +35,15 @@
     border-right: 0px;
     border-bottom: 0px;
     position: absolute;
+
     bottom: 0px;
     width: 100%;
     padding: 0px 0px 0px 20px;
    backdrop-filter: saturate(40%);
+}
+
+.contact p {
+    color:#000;
 }
 
 .herolines {
@@ -757,7 +762,7 @@ font-weight:800;
     }
 
     .about {
-        height: 120vh;
+        height: 150vh;
     }
 
     .about .triangles .main {
