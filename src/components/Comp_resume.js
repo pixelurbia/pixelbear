@@ -138,6 +138,23 @@ function Resume(stuff) {
                     </ul>
                 </p>
               </div>  
+            </div>   
+            <div className="entry">
+              <div className="entry-left">
+              </div>              
+              <div className="entry-right">
+                <p>
+                  <h5>Senior Designer and Front End Engineer</h5>
+                  <br/>
+                  <b>Marcy Desgin Group | Kansas City | Apr 2008 - Nov 2012 </b>
+                  <br/>
+                    <ul>
+                      <li>Responsible for a wide array of projects, from web layout to brochure design to ad campaign creation.</li>
+                      <li>Collaborated with many different industries, from associations, non-profits and small business.</li>
+                      <li>Won over 5 international (Platinum and Gold) Awards Including Marcom and Hermes</li>
+                    </ul>
+                </p>
+              </div>  
             </div>  
             <br/>
             <br/>

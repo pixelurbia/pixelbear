@@ -725,6 +725,9 @@ font-weight:800;
         height:auto;
     }
 
+    .img-gallery h2 {
+        margin: 0px 0px 0px 0px;
+    }
     .img-gallery .img-contain img {
         height:auto;
     }
