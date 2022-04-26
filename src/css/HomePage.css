@@ -226,23 +226,23 @@ h5 {
     z-index: 7;
 }
 .fullsized {
-    vertical-align: middle;
-    text-align: center;
-    margin: 0 auto;
+    width: 100vw;
     height: 100vh;
+    display: block;
+    top: 0px;
+    left: 0px;
     position: fixed;
-    top: 0;
-    left:0;
-    z-index:99999999;
+    z-index: 8;
 }
 .fullsized .closed-button {
-        top: 0;
+    top: 0;
+    left: 0px;
     position: absolute;
-    color: white;
+    color: #000;
     padding: 10px;
     z-index: 999;
-    background-color:#000;
-    opacity: 0.5;
+    background-color: #fff;
+    opacity: 1;
 }
 .fullsized img {
     object-fit: cover;
@@ -338,7 +338,29 @@ h5 {
     top: 130px;
 }
 
+.album-photos {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.album-photos .fullWidth img {
+    margin: 0 auto;
+    max-width: 100vw;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    z-index: 999;
+    display: block;
+}
+.album-photos  img {
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+
 /* About section */
+
 
 .about {
     margin-top: 100px;

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import FullWidth from './Comp_FullWidth.js';
 import button from '../img/button.png';
 import LazyLoad from 'react-lazyload';
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
 // var images = {};
 class FullAlbums extends React.Component{
@@ -127,15 +128,24 @@ const album = albums.children.filter(album => album.name == this.state.folder);
 
         return (
 
-               <div className="recent-photos">
+               <div className="album-photos">
                <h4 onClick={() => this.back()}>Back</h4>
-              {album[0].children.map(image => (
-              <LazyLoad offset={3900} height={500} scroll key={image.name}> 
-                <div className="img-contain fade-in" onClick={() => this.fullSize(image.full)}>
+              
+               <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}} >
+                <Masonry>
+
+                      {album[0].children.map(image => (
+
+                <div key={image.name} className="fade-in" onClick={() => this.fullSize(image.full)}>
                   <img src={image.path} />
                 </div>
-              </LazyLoad> 
+
               ))}
+
+                </Masonry>
+            </ResponsiveMasonry>
+
+            
               </div>
           );
       }
@@ -163,12 +173,6 @@ console.log(this.state);
 
           { this.renderFullimage() }
           { this.renderElement() }
-
-
-         
-
-
-          
 
 
            

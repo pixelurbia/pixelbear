@@ -4,6 +4,7 @@ import HomePage from './components/HomePage.js';
 import FullAlbums from './components/Comp_Albums.js';
 import Portfolio from './components/Comp_portfolio.js';
 import Resume from './components/Comp_resume.js';
+import Process from './components/Comp_process.js';
 import BearAdmin from './components/BearAdmin.js';
 import Upload from './components/Upload.js';
 
@@ -38,6 +39,9 @@ function App() {
           </Route>   
           <Route exact path="/Resume">
             <Resume />
+          </Route>     
+          <Route exact path="/Process">
+            <Process />
           </Route>          
 
 
