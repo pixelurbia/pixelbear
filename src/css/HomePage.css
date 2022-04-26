@@ -342,7 +342,7 @@ h5 {
     max-width: 1800px;
     margin: 0 auto;
 }
-.album-photos .fullWidth img {
+.fullsized img {
     margin: 0 auto;
     max-width: 100vw;
     max-height: 100%;
