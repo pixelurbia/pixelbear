@@ -1,8 +1,6 @@
 //Other
 import ContactForm from './Comp_ContactForm.js';
 
-//CSS
-import '../css/HomePage.css';
 
 //IMGs
 import button from '../img/button.png';

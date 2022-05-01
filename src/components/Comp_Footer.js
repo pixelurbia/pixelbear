@@ -1,4 +1,4 @@
-import '../css/Comp_Header.css';
+
 import logo from '../img/logo-light.png';
 import {
   BrowserRouter as Router,

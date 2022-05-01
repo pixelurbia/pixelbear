@@ -1,6 +1,3 @@
-//CSS
-import '../css/HomePage.css';
-
 //IMGs
 import button from '../img/button.png';
 import bigTriangle from '../img/big-triangle.png';

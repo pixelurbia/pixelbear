@@ -1,6 +1,3 @@
-//CSS
-import '../css/HomePage.css';
-
 //IMGs
 import divider from '../img/big-div.png';
 

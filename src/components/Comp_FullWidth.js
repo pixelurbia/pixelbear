@@ -1,5 +1,5 @@
 //CSS
-import '../css/HomePage.css';
+
 
 //IMGs
 import herolines from '../img/herolines.png';
