@@ -19,6 +19,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-lazyload": "^3.2.0",
+    "react-optimized-image": "^0.4.1",
     "react-responsive-masonry": "^2.1.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
@@ -28,7 +29,6 @@
   },
   "scripts": {
     "start": "PORT=8000 concurrently --kill-others \"less-watch-compiler --config less-watcher.config.json\" \"react-scripts start\"",
-    "build": "react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

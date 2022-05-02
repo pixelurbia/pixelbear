@@ -1,3 +1,4 @@
+import Img from 'react-optimized-image';
 import '../css/App.css';
 import logo from '../img/logo-light.png';
 import {

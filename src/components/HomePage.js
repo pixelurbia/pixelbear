@@ -1,3 +1,4 @@
+import Img from 'react-optimized-image';
 import FullWidth from './Comp_FullWidth.js';
 import AboutBear from './Comp_AboutBear.js';
 import Words from './Comp_words.js';

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Img from 'react-optimized-image';
 import button from '../img/button.png';
 import LazyLoad from 'react-lazyload';
 import parse from "html-react-parser";

@@ -362,6 +362,16 @@ h5 {
   background-color: #fff;
   opacity: 1;
 }
+.loading-button {
+  top: 0;
+  left: 75px;
+  position: fixed;
+  display: none;
+  color: #000;
+  padding: 10px;
+  z-index: 999;
+  background-color: #fff;
+}
 .fullsized img {
   object-fit: cover;
   width: 100%;
@@ -425,6 +435,7 @@ h5 {
   height: 91vh;
 }
 .fade-in {
+  display: block;
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
@@ -461,6 +472,55 @@ h5 {
   height: auto;
   width: 100%;
   display: block;
+}
+/*placeholder*/
+.box,
+.box-placeholder {
+  display: inline-block;
+  background-color: #fff;
+  margin: 30px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  vertical-align: top;
+  width: 100%;
+}
+.box hr,
+.box-placeholder hr {
+  margin: 0;
+  border-color: #f3f3f3;
+}
+.box {
+  display: none;
+}
+.box .category {
+  display: block;
+  margin-bottom: 10px;
+}
+.box img {
+  max-width: 100%;
+}
+.box-placeholder {
+  display: inline-block;
+  background-color: #444;
+  height: 400px;
+  min-width: 400px;
+  opacity: 0.1;
+  animation: fading 1.5s infinite;
+}
+.fading {
+  animation: fading 1.5s infinite;
+  display: block;
+}
+@keyframes fading {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }
 /* About section */
 .about {

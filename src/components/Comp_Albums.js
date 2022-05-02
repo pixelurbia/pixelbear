@@ -5,8 +5,11 @@ import button from '../img/button.png';
 import LazyLoad from 'react-lazyload';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
+
+
 // var images = {};
 class FullAlbums extends React.Component{
+
 
    constructor(props) {
 
@@ -17,7 +20,8 @@ class FullAlbums extends React.Component{
       isLoaded: false,
       albums: {},
       folder: 'Albums',
-      fullSize: null
+      fullSize: null,
+      imageStatus:null
     };
     //onclick events can go here 
   }
@@ -75,17 +79,31 @@ fullSize = (fullSizedImage) => {
     // console.log(this.state);
     
   }
+  closeBtn = () => {
+    this.setState({
+      fullSize: null,
+      imageStatus: null
+    })
+    // console.log(this.state);
+  }
+
+   handleImageLoaded() {
+    this.setState({ imageStatus: "loaded" });
+    console.log(this.state); 
+  }
  
 renderFullimage() { 
-    const { error, isLoaded, albums, folder, fullSize } = this.state
+    const { error, isLoaded, albums, folder, fullSize, imageStatus } = this.state
      if (isLoaded) {
       console.log(albums.fullSize); 
+      
             if (this.state.fullSize != null){
         return (
           <div className="image-container-modal">
-          <div className="fullsized fade-in">
-            <span className="closed-button" onClick={() => this.fullSize(null)}>X Close</span>
-            <img src={fullSize} />
+          <div className={`loading-button ${imageStatus ? null: 'fading'}`}>Loading</div>
+          <div className={`fullsized ${imageStatus ? null: 'fade-in'}`}>
+            <span className="closed-button" onClick={() => this.closeBtn()}>X Close</span>
+            <img src={fullSize}  onLoad={this.handleImageLoaded.bind(this)}/>
           </div>
           <div className="fullbg fade-in"></div>
           </div>
@@ -134,10 +152,13 @@ const album = albums.children.filter(album => album.name == this.state.folder);
                <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}} >
                 <Masonry>
 
+
                       {album[0].children.map(image => (
 
                 <div key={image.name} className="fade-in" onClick={() => this.fullSize(image.full)}>
+                <LazyLoad placeholder={<div class="box-placeholder"></div>}>   
                   <img src={image.path} />
+                  </LazyLoad> 
                 </div>
 
               ))}
@@ -170,6 +191,7 @@ console.log(this.state);
             <div className="headings">
               <h3>{folder}</h3>
             </div>  
+
 
           { this.renderFullimage() }
           { this.renderElement() }

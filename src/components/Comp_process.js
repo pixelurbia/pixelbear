@@ -1,6 +1,7 @@
 import Rellax from "rellax";
 import React, { useRef, useEffect } from "react";
 //IMGs
+import Img from 'react-optimized-image';
 import paper from '../img/paper.jpg';
 import workflow from '../img/workflow.jpg';
 import ipad from '../img/ipad.jpg';
