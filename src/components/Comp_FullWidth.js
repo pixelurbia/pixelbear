@@ -1,4 +1,4 @@
-//CSS
+import Img from 'react-optimized-image';
 
 
 //IMGs

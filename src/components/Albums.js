@@ -35,7 +35,7 @@ class Albums extends React.Component{
             <div className="recent-photos">
               {
                     listOfImages.map(
-                      (image, index) => <div className="img-contain"><img key={index} src={image.default}></img></div>
+                      (image, index) => <a href={image.default} target="_blank"><div className="img-contain"><img key={index} src={image.default}></img></div></a>
                     )
               }
             </div>
