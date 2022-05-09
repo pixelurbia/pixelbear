@@ -800,6 +800,7 @@ textarea {
 }
 .process .section-header img {
   width: 100%;
+  margin-top: -270px;
 }
 @media (max-width: 800px) {
   .process .section-header img {
