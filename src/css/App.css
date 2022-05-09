@@ -807,9 +807,6 @@ textarea {
     transform: translate3d(-200px, 0px, 0px) !important;
   }
 }
-.process .section-header .ipad-img {
-  margin-top: 800px;
-}
 /* tablet */
 @media only screen and (max-width: 1400px) {
   .about .triangles .main {

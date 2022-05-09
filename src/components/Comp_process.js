@@ -10,26 +10,7 @@ import ipad from '../img/ipad.jpg';
 
 function Process() {
 
-   const rellaxRef = useRef();
 
-  useEffect(() => {
-    new Rellax(".animate", { // <---- Via class name
-      speed: 2,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false
-    });
-    new Rellax(".animate-three", { // <---- Via class name
-      speed: 2,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false
-    });
-}, []);
 
 
   return (
