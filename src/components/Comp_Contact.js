@@ -1,6 +1,6 @@
 //Other
 import ContactForm from './Comp_ContactForm.js';
-
+import React from 'react';
 
 //IMGs
 import button from '../img/button.png';

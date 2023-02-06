@@ -7,6 +7,7 @@ import Resume from './components/Comp_resume.js';
 import Process from './components/Comp_process.js';
 import BearAdmin from './components/BearAdmin.js';
 import Upload from './components/Upload.js';
+import React from 'react';
 
 
 

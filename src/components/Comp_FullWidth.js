@@ -1,4 +1,5 @@
 import Img from 'react-optimized-image';
+import React from 'react';
 
 
 //IMGs

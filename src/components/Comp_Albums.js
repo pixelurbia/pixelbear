@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import FullWidth from './Comp_FullWidth.js';
 import button from '../img/button.png';
 import LazyLoad from 'react-lazyload';
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 
 
 

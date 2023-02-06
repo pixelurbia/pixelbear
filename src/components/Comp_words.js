@@ -1,7 +1,7 @@
 //IMGs
 import button from '../img/button.png';
 import divider from '../img/big-div.png';
-
+import React from 'react';
 
 
 function FullWidth(stuff) {
