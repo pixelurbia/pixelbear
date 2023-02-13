@@ -27,15 +27,10 @@ function HomePage() {
       <FullWidth 
         className="bottom-left fullWidth heroArea"
         TopText
-
-        
         DefiningText="Cle Elum - Washington State"
         img={HeroImg}
         divider="bottom"
       />
-
-      <Albums />
-
   
        <AboutBear 
         className="about fullWidth"

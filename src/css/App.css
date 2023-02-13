@@ -433,6 +433,16 @@ h5 {
 .img-gallery img {
   width: 100%;
 }
+
+.gal-img-contain {
+	width:350px;
+	height:350px;
+	margin:10px;
+	float:left;
+	background-size: cover!important;
+}
+
+
 .fade-in {
   display: block;
   opacity: 1;

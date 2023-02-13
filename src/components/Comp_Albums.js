@@ -123,8 +123,6 @@ renderElement() {
 const album = albums.children.filter(album => album.name == this.state.folder);
 
 
-// expected output: Array ["exuberant", "destruction", "present"]
-
 
 
       if (this.state.folder == 'Albums'){
@@ -149,22 +147,23 @@ const album = albums.children.filter(album => album.name == this.state.folder);
                <div className="album-photos">
                <h4 onClick={() => this.back()}>Back</h4>
               
-               <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}} >
-                <Masonry>
+
+
 
 
                       {album[0].children.map(image => (
 
-                <div key={image.name} className="fade-in" onClick={() => this.fullSize(image.full)}>
-                <LazyLoad placeholder={<div class="box-placeholder"></div>}>   
-                  <img src={image.path} />
-                  </LazyLoad> 
+                <div 
+                  key={image.name} 
+                  style={{ background: `url(${image.path}) no-repeat`}}
+                  className="fade-in  gal-img-contain" 
+                  onClick={() => this.fullSize(image.full)} > 
                 </div>
 
               ))}
 
-                </Masonry>
-            </ResponsiveMasonry>
+
+
 
             
               </div>
